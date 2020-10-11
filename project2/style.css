@@ -1,7 +1,9 @@
 body {
     background-image: linear-gradient(#fc5e55, #fa4083);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 .container {
@@ -27,39 +29,66 @@ main {
 }
 
 .cards {
-    background-color: rgb(47, 198, 33);
     min-height: 300px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1 {
-    background-color: rgb(227, 58, 137);
-    min-height: 300px;
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .card2 {
-    background-color: rgb(227, 124, 137);
-    min-height: 300px;
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .card3 {
-    background-color: rgb(227, 22, 137);
-    min-height: 300px;
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .herobox1 {
-    /* background-color: cadetblue; */
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2 {
     /* background-color: blueviolet; */
     flex: 1;
 }
-h1{
-    font-size: 80px;
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif; 
+    margin-top: 20px;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+
 }
