@@ -82,17 +82,24 @@ p {
 
 h2 {
     font-size: 2rem;
-    font-family: 'Playfair Display', serif; 
+    font-family: 'Playfair Display', serif;
     margin-top: 20px;
 }
 
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
+
 
 }
-.cards i{
+
+.cards i {
     font-size: 100px;
-    padding-top: 30px;
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
 }
