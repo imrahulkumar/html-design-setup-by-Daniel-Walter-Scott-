@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(#fc5e55, #fa4083)
+    background-image: linear-gradient(#fc5e55, #fa4083);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .container {
@@ -57,4 +59,7 @@ main {
 .herobox2 {
     /* background-color: blueviolet; */
     flex: 1;
+}
+h1{
+    font-size: 80px;
 }
