@@ -103,3 +103,10 @@ h2 {
     padding: 30px 30px 20px 30px;
     box-sizing: border-box;
 }
+.mybutton{
+    text-decoration: none;
+    background-color: white;
+    color: #fa4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+}
